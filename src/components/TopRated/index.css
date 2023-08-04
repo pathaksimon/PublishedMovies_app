@@ -1,0 +1,27 @@
+.toppy {
+  display: flex;
+  width: 50%;
+  padding-left: 0px;
+}
+
+.lista {
+  list-style-type: none;
+  min-width: 70%;
+  margin-right: 5px;
+}
+
+.imageoflist {
+  border: none;
+  width: 90%;
+  min-height: 280px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .lista {
+    min-height: 70px;
+  }
+  .imageoflist {
+    min-height: 70px;
+  }
+}

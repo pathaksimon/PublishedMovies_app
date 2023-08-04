@@ -1,0 +1,77 @@
+.PopularHomeContainer {
+  min-height: 1356px;
+  width: 100%;
+  background-size: cover;
+  background-color: #131313;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popularImagecontainer {
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popularcard {
+  height: 170px;
+  width: 255px;
+  margin: 10px;
+}
+
+.popularphoto {
+  height: 170px;
+  width: 255px;
+}
+
+.abovepopular {
+  display: none;
+}
+.display1 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .PopularHomeContainer {
+    min-height: 731px;
+  }
+
+  .popularcard {
+    max-width: 80px;
+    max-height: 95px;
+  }
+
+  .popularphoto {
+    max-width: 80px;
+    max-height: 95px;
+  }
+
+  .abovepopular {
+    background-color: yellow;
+    display: block;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .newlyClicked {
+    display: none;
+  }
+  .description1 {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  .display1 {
+    display: none;
+  }
+}

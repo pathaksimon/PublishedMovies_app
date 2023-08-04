@@ -1,0 +1,93 @@
+.loginContainer {
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+  margin: 0px;
+  background-image: url('https://res.cloudinary.com/dsxljhpge/image/upload/v1688030682/netfilx_1_aw9lh4.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logincard {
+  width: 456px;
+
+  height: 420px;
+  background-color: #0c0b10;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.moviesbar {
+  width: 20%;
+  margin-left: 8%;
+}
+
+.topBar {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.login-center {
+  width: 70%;
+
+  margin-top: 80px;
+}
+
+.login {
+  text-align: center;
+  color: white;
+}
+
+.loginbutton {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #e50914;
+  border: none;
+}
+
+.inputy {
+  width: 100%;
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+
+.passd {
+  margin-top: 15px;
+}
+
+.labeling {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .loginContainer {
+    background-image: none;
+    background-color: #0c0b10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logincard {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .logincard {
+    margin-top: 0px;
+  }
+
+  .moviesbar {
+    margin-left: 13%;
+  }
+}
+
+.error {
+  color: red;
+}
